@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+
+<body>
+    <div class="slide-container">
+        <div class="slide">
+            <img src="https://images.unsplash.com/photo-1612564092669-92df073b51a0?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDM0fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+            <div class="caption">Caption Text 1</div>
+        </div>
+
+        <div class="slide">
+            <img src="https://images.unsplash.com/photo-1621865881868-b9d5586b25b5?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDUwfDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+            <div class="caption">Caption Text 2</div>
+        </div>
+
+        <div class="slide">
+            <img src="https://images.unsplash.com/photo-1579550973101-0cbb102afb56?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEwOHw2c01WalRMU2tlUXx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+            <div class="caption">Caption Text 3</div>
+        </div>
+
+        <div class="slide">
+            <img src="https://images.unsplash.com/photo-1623211514326-a47c460ea21d?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE2OXw2c01WalRMU2tlUXx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+            <div class="caption">Caption Text 4</div>
+        </div>
+        <span class="arrow prev" onclick="controller(-1)">&#10094;</span>
+        <span class="arrow next" onclick="controller(1)">&#10095;</span>
+
+    </div>
+</body>
+
+</html>
